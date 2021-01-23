@@ -26,7 +26,6 @@
         "package-lock.json": true,
         "src/setupTests.ts": true,
         "src/reportWebVitals.ts": true,
-        "src/App.css": true,
         "src/App.test.tsx": true
     },
     "window.title": "${dirty}TxToDo",
