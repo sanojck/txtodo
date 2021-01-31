@@ -4,6 +4,7 @@ import Login from './app/login/Login';
 import Dashboard from './app/dashboard/Dashboard';
 import PageNotFound from './app/shared/pagenotfound/PageNotFound';
 import './App.scss';
+import { Slide, ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           </Switch>
         </Router>
       </div>
+      <ToastContainer transition={Slide} draggablePercent={20} />
     </>
   );
 }
