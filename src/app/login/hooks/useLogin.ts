@@ -6,7 +6,7 @@ export type Payload_Login = {
     apiKey: string,
 }
 
-type Resource_Login = {
+export type Resource_Login = {
     token: {
         name: string,
         token: string,
